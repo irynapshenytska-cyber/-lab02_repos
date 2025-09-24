@@ -16,7 +16,7 @@ int main()
     double z2; // ????????? ?????????? 2-?? ??????
     cout << "m = "; cin >> m;
     cout << "n = "; cin >> n;
-    z1 = ((m - 1) * sqrt(m) - (n - 1) * sqrt(n)) / (sqrt(m * m * m * n + n * m + m * m - m));
+    //z1 = ((m - 1) * sqrt(m) - (n - 1) * sqrt(n)) / (sqrt(m * m * m * n + n * m + m * m - m));
     z2 = (sqrt(m) - sqrt(n)) / m;
 
     cout << endl;
